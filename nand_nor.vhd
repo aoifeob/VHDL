@@ -2,7 +2,7 @@
 ENTITY nand IS
   PORT( A1: in std_logic;
         A2: in std_logic;
-        AOut: out std_logic;  );
+        AOut: out std_logic  );
 END nand;
 
 ARCHITECTURE behavioural OF nand IS
@@ -15,7 +15,7 @@ END behavioural;
 ENTITY nor IS
   PORT( B1: in std_logic;
         B2: in std_logic;
-        BOut: out std_logic;  );
+        BOut: out std_logic  );
 END nor;
 
 ARCHITECTURE behavioural OF nor IS
